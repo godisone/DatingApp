@@ -27,7 +27,7 @@ namespace API
 
         public Startup(IConfiguration config)
         {
-            _config = config;
+            _config = config;//same as "this.config=config"
         }
         public void ConfigureServices(IServiceCollection services)
         {
